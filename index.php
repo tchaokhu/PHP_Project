@@ -60,3 +60,4 @@ echo "<h1>ราคาสิ้นค้า $total บาท</h1>";
 echo "<h2><a href = 'checkout.php'>สั่งซื้อ</a></h2>";
 }
 mysqli_close($con);
+?>
