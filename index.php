@@ -5,7 +5,6 @@ $username="root";
 $password="22102001";
 $dbname="shop";
 $per_page=5;
-echo "<h2>55555</h2>"
 if(isset($_GET["page"])) $start_page=$_GET["page"]*$per_page;
 else $start_page=0;
 $con=mysqli_connect($servername,$username,$password,$dbname);
